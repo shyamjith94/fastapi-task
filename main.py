@@ -11,7 +11,7 @@ from starlette import status
 from sqlalchemy.exc import SQLAlchemyError, IntegrityError, OperationalError
 from typing import Union
 from app.logs import logger
-
+import uvicorn
 
 
 # app events
@@ -82,3 +82,6 @@ app.include_router(router=chat_router, prefix=f"{settings.API_TAG}/v1", tags=["c
 def home():
     return {"message": "Hello, FastAPI with VS Code!"}
 
+if __name__ == "__main__":
+    logger.info(f"Starting server at http://0.0.0.0:8000 with DEBUG={settings.DEBUG}")
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=settings.DEBUG)

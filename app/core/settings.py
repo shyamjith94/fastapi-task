@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     VERSION: str = "1.0.0"
     DESCRIPTION: str = "Fast rest api"
     API_TAG: str = "/api"
+    DEBUG: bool = False
 
   # data base
     POSTGRES_SERVER: str = os.getenv("POSTGRES_SERVER",)
