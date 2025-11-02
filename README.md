@@ -5,7 +5,6 @@ This is a FastAPI project with PostgreSQL connectivity, vector store integration
 
 ## make sure postgres sql connectivity 
 need to run alembic revision and migration using alembic revision --autogenerate -m "initial" alembic upgrade head
----
 
 ## streaming test
 added html file for streaming test app/core/streaming.html
