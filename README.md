@@ -16,28 +16,31 @@ for creating embedding using "all-MiniLM-L6-v2"
 - create python virtual env
 - install requirement.txt
 - for vscode debug mode
-   ```json
+
+```json
 {
-    "version": "0.2.0",
-    "configurations": [
-        {
-            "name": "Debug FastAPI (Uvicorn)",
-            "type": "python",
-            "request": "launch",
-            "module": "uvicorn",
-            "args": [
-                "main:app",
-                "--reload",
-                "--host", "127.0.0.1",
-                "--port", "8000"
-            ],
-            "jinja": true,
-            "justMyCode": true,
-            "env": {
-                "ENV": "dev"
-            }
-        }
-    ]
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug FastAPI (Uvicorn)",
+      "type": "python",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": [
+        "main:app",
+        "--reload",
+        "--host",
+        "127.0.0.1",
+        "--port",
+        "8000"
+      ],
+      "jinja": true,
+      "justMyCode": true,
+      "env": {
+        "ENV": "dev"
+      }
+    }
+  ]
 }
 
 ## run terminal use 
