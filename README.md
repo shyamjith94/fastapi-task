@@ -11,6 +11,7 @@
 ## embeddings
 for creating embedding using "all-MiniLM-L6-v2"
 
+
 ## setup 
 - create python virtual env
 - install requirement.txt
@@ -33,7 +34,7 @@ for creating embedding using "all-MiniLM-L6-v2"
             "jinja": true,
             "justMyCode": true,
             "env": {
-                "ENV": "dev" // <-- set your environment here
+                "ENV": "dev"
             }
         }
     ]
