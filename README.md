@@ -53,6 +53,15 @@ for creating embedding using "all-MiniLM-L6-v2"
 ## streaming test
 - added html file for streaming test app/core/streaming.html
 
+## vector store
+- using chromadb data/vector_store 
+
+## app log
+- application logs are available /logs/app.log
+
+## file upload
+- uploaded files are storing app/uploads
+
 
 ## Requirements
 - Python 3.9+
