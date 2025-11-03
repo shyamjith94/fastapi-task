@@ -42,6 +42,7 @@ for creating embedding using "all-MiniLM-L6-v2"
     }
   ]
 }
+```
 
 ## run terminal use 
 - main.py 
