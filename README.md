@@ -60,25 +60,21 @@ for creating embedding using "all-MiniLM-L6-v2"
 
 
 ## add env file
-- .env.dev
-## Database configuration 5432
--POSTGRES_SERVER=localhost
--POSTGRES_USER=postgres
--POSTGRES_PASSWORD=postgres
--POSTGRES_DB=task
--POSTGRES_PORT=5432
+- .env.dev add below params 
 
+- POSTGRES_SERVER=localhost
+- POSTGRES_USER=postgres
+- POSTGRES_PASSWORD=postgres
+- POSTGRES_DB=task
+- POSTGRES_PORT=5432
 
-## auth
--SECRET_KEY = "j7D8QeUqD-5FZ5pPV8YrCytIbXoZxKnS0Nn9ScpKzJo"
--ALGORITHM = "HS256"
--ACCESS_TOKEN = 24
+- SECRET_KEY = "j7D8QeUqD-5FZ5pPV8YrCytIbXoZxKnS0Nn9ScpKzJo"
+- ALGORITHM = "HS256"
+- ACCESS_TOKEN = 24
 
-
--OPENAI_API_KEY=""
-
--PINECONE_API_KEY=""
--GROQ_API_KEY=""
+- OPENAI_API_KEY=""
+- PINECONE_API_KEY=""
+- GROQ_API_KEY=""
 
 ## app log
 - application logs are available /logs/app.log
