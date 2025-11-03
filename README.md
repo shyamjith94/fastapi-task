@@ -48,7 +48,9 @@ for creating embedding using "all-MiniLM-L6-v2"
 - main.py 
 
 ## make sure postgres sql connectivity 
-- need to run alembic revision and migration using alembic revision --autogenerate -m "initial" alembic upgrade head
+- need to run alembic revision and migration using 
+- alembic revision --autogenerate -m "initial" 
+- alembic upgrade head
 
 ## streaming test
 - added html file for streaming test app/core/streaming.html
