@@ -15,7 +15,8 @@ for creating embedding using "all-MiniLM-L6-v2"
 - create python virtual env
 - install requirement.txt
 - for vscode debug mode
-    {
+   ```json
+{
     "version": "0.2.0",
     "configurations": [
         {
@@ -32,7 +33,7 @@ for creating embedding using "all-MiniLM-L6-v2"
             "jinja": true,
             "justMyCode": true,
             "env": {
-                "ENV": "dev"  // <-- set your environment here
+                "ENV": "dev" // <-- set your environment here
             }
         }
     ]
