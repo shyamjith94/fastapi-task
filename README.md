@@ -59,8 +59,7 @@ for creating embedding using "all-MiniLM-L6-v2"
 - using chromadb data/vector_store 
 
 
-## add env file
-- .env.dev add below params 
+## add env file, create .env.dev file
 
 - POSTGRES_SERVER=localhost
 - POSTGRES_USER=postgres
