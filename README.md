@@ -1,20 +1,20 @@
 # FastAPI Project
 
 ## Overview
-This is a FastAPI project with PostgreSQL connectivity, vector store integration using ChromaDB, and structured API routes, models, and schemas.
+- This is a FastAPI project with PostgreSQL connectivity, vector store integration using ChromaDB, and structured API routes, models, and schemas.
 
 ## important
-Two llm options are added openai, Groq
-currently using openai llm to get response please attach openai key in env file, 
+- Two llm options are added openai, Groq
+- currently using openai llm to get response please attach openai key in env file, 
 
 
 ## embeddings
-for creating embedding using "all-MiniLM-L6-v2 "
+for creating embedding using "all-MiniLM-L6-v2"
 
 ## setup 
-create python virtual env
-install requirement.txt
-for vscode debug mode
+- create python virtual env
+- install requirement.txt
+- for vscode debug mode
     {
     "version": "0.2.0",
     "configurations": [
@@ -39,13 +39,13 @@ for vscode debug mode
 }
 
 ## run terminal use 
-main.py 
+- main.py 
 
 ## make sure postgres sql connectivity 
-need to run alembic revision and migration using alembic revision --autogenerate -m "initial" alembic upgrade head
+- need to run alembic revision and migration using alembic revision --autogenerate -m "initial" alembic upgrade head
 
 ## streaming test
-added html file for streaming test app/core/streaming.html
+- added html file for streaming test app/core/streaming.html
 
 
 ## Requirements
