@@ -16,7 +16,7 @@ class VectorStore:
             print(f"Using default vector store path: {persist_directory}")
 
         self.persist_directory = os.path.abspath(
-            persist_directory)  # Convert to absolute path
+            persist_directory)
         self.client = None
         self.collection = None
         if pdf_id is None:

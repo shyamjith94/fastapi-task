@@ -61,7 +61,7 @@ async def upload_pdf_db(*,file: UploadFile = File(...), db: Session = Depends(db
 
 
 @chat_router.post("/", response_model=ChatStreamChunk)
-async def chat_stream(*, db: Session = Depends(db_class.get_db), query_in: ChatStreamInput):
+async def chat_stream(*, db: Session = Depends(db_class.get_db), query_in: ChatStreamInput, current_user:User = Depends(get_current_user)):
     try:
         query = query_in.query
         return StreamingResponse(stream_chat_response(query), media_type="application/x-ndjson")
